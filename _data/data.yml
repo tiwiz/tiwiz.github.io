@@ -3,6 +3,7 @@
 #
 
 sidebar:
+    position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
@@ -13,55 +14,70 @@ sidebar:
 
     # Sidebar links
     email: roberto.orgiu@gmail.com
-    phone: 
+    phone:
     citizenship:
     website:  #do not add http://
     linkedin: robertoorgiu
-    xing: 
+    xing:
     github: tiwiz
     telegram: roperchio
     gitlab:
     bitbucket:
+    bluesky:
     twitter: '@_tiwiz'
     stack-overflow: 1001410/tiwiz
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: 
+    mastodon: # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode:
+    pdf:
 
-    languages:
-      - idiom: Italian
-        level: Native
+  languages:
+    title: Languages
+    info:
+    - idiom: Italian
+      level: Native
 
-      - idiom: English
-        level: Professional
+    - idiom: English
+      level: Professional
 
-      - idiom: Spanish
-        level: Casual
-      
+    - idiom: Spanish
+      level: Casual
+
       - idiom: French
         level: Casual
 
-    interests:
-      - item: Biking
-        link:
+  interests:
+    title: Interests
+    info:
+    - item: Biking
+      link:
 
-      - item: Snowboarding
-        link:
 
-      - item: Photography
-        link:
+    - item: Snowboarding
+      link:
+
+
+    - item: Photography
+      link:
+
 
 career-profile:
-    title: Who am I?
-    summary: |
-      Android Engineer, former [Android & Kotlin Google Developer Expert](https://developers.google.com/community/experts/directory/profile/profile-roberto-orgiu), amateur photographer. I have been coding on Android since 2010, because I fell in love with the idea of pocket computing the day I met it. 
+  title: Who am I?
+  summary: |
+    Android Engineer, former [Android & Kotlin Google Developer Expert](https://developers.google.com/community/experts/directory/profile/profile-roberto-orgiu), amateur photographer. I have been coding on Android since 2010, because I fell in love with the idea of pocket computing the day I met it.
 education:
-    - degree: BA in Computer Science
-      university: University of Turin
-      time: 2010 - 2014
-      details: |
-        Major in Networks and ICT Systems at University of Turin. From September 2007 to August 2010 I have been studying Computer Engineering at Politecnico of Turin, then I moved to University of Turin to study Computer Science instead.
+  title: Education
+  info:
+  - degree: BA in Computer Science
+    university: University of Turin
+    time: 2010 - 2014
+    details: |
+      Major in Networks and ICT Systems at University of Turin. From September 2007 to August 2010 I have been studying Computer Engineering at Politecnico of Turin, then I moved to University of Turin to study Computer Science instead.
 experiences:
+  title: Experiences
+  info:
     - role: Developer Relations Engineer, Android
       time: 2022 - Present
       company: Google, Remote
@@ -86,38 +102,53 @@ experiences:
       time: 2014 - 2014
       company: txtr GmbH, Berlin
       details: |
-        txtr was an ebook reading app, on which I helped transition from the old network layer to a RX based one, we migrated the product to a whitelabel that could be customized for clients, and we helped users read their books right on their phones. 
+        txtr was an ebook reading app, on which I helped transition from the old network layer to a RX based one, we migrated the product to a whitelabel that could be customized for clients, and we helped users read their books right on their phones.
     - role: ICT Security Consultant
       time: 2012 - 2014
       company: CNH, Turin
       details: |
         At CNH I have been the junior member of an ICT Security group, with a particular focus on Access Management across CNH systems. I was part of the project to integrate mobile devices into MDM software, with the role of Mobile Expert.
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  intro: >
+    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+  - title: Velocity
+    link: "#hook"
+    tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: DevStudio
+    link: "#"
+    tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+  title: OSS Contributions
+  intro: >
+    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  contributions:
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
